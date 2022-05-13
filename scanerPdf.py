@@ -127,7 +127,7 @@ class Excel_Operate():
                 print(d_text)
                 """
 
-                if '广金服编号' in d_text:
+                if '编号' in d_text:
                      Excel_Operate.getNewPDF(url,2)
                 else :
                     cls.result.append([a_text, b_text,c_text,d_text,fileName])
